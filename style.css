@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+span, a {
+    display: inline-block;
+}
+.form {
+    padding: 4px;
+    background-color: rgb(99, 50, 5);
+    display: inline-block;
+}
+.input  {
+    font-size: 30px;
+    padding: 5px 7px;
+}
+.btn{
+    font-size: 30px;
+    padding: 5px 7px;
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+.p {
+    color: rgb(99, 50, 5);
+    font-size: 26px;
+    font-weight: 600;
+    width: 450px;
+}
+.box {
+    border: 5px solid rgb(99, 50, 5);
+    padding: 17px;
+    overflow: hidden;
+    width: 310px;
+    height: 400px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.box1 {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.h1 {
+    color:rgb(99, 50, 5) ;
+    width: 400px;
+}
+.jk {
+    font-size: 26px;
+    color: red;
+    animation: move 0.2s linear alternate 4;
+}
+.kl {
+    animation: move 0.2s linear alternate 4;
+}
+.ko {
+    animation: mo 0.2s linear alternate 4;
+}
+.j {
+    font-size: 26px;
+    color: dodgerblue;
+    animation: mov 0.2s linear alternate 4;
+}
+.jj {
+    font-size: 26px;
+    color: green;
+}
+@keyframes move {
+    0% {
+        transform: translateX(10px);
+    } 
+    50% {
+        transform: translateX(-10px);
+    }   
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes mov {
+    0% {
+        transform: translateX(10px);
+    } 
+    50% {
+        transform: translateX(-10px);
+    }   
+    100% {
+        transform: translateX(0);
+    }
+}
+.op {
+    width: 100%;
+}
+.pp {
+    color: rgb(99, 50, 5) ;
+    font-size: 26px;
+}
+@media(max-width:) {
+    
+}
